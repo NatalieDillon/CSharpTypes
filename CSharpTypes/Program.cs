@@ -4,9 +4,9 @@
 	{
 		static void Main()
 		{
-			TypeExamples.DeclaringCommonNumericTypes();	
+			//TypeExamples.DeclaringCommonNumericTypes();	
 			//TypeExamples.DeclaringOtherTypes();
-			//ConversionExamples.Conversions();
+			ConversionExamples.Conversions();
 			//UserInputExample();
 		}
 
