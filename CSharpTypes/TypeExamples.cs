@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CSharpTypes
+﻿namespace CSharpTypes
 {
 	public class TypeExamples
 	{
@@ -30,6 +24,9 @@ namespace CSharpTypes
 
 			DateTime dateTime = DateTime.Now;
 			Console.WriteLine($"{dateTime} is of type {dateTime.GetType()}\n");
+
+			DateTime lastChristmas = new DateTime(2022, 12, 25);
+			Console.WriteLine($"{lastChristmas} is of type {dateTime.GetType()}\n");
 
 			// Strings are immutable reference types
 			string str = "Computing";
